@@ -1,0 +1,96 @@
+// .playlistScreen {
+//     // .playlistscreen_list{
+//     //     display: flex;
+
+//     // }
+//     .folder {
+//         cursor: pointer;
+//         width: 20%;
+//         height: 20vh;
+//         padding: 10px;
+//         margin: 10px 10px;
+//         border: 1px solid #ccc;
+//         border-radius: 4px;
+//         background-color: #f9f9f9;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         text-align: center;
+//         &:hover {
+//             background-color: #e9e9e9;
+//         }
+//     }
+
+//     .playlist-section {
+//         margin-left: 20px;
+//         padding: 10px;
+//         border-left: 2px solid #ccc;
+//     }
+// }
+
+
+.playlistScreen {
+    // .playlistscreen_list {
+    //     display: flex;
+    // }
+
+    .folder {
+        cursor: pointer;
+        width: 20%;
+        height: 22vh;
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: #f9f9f9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        &:hover {
+            background-color: #e9e9e9;
+        }
+
+        .folder-content {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit:fill;
+                border-radius: 4px;
+            }
+            .playicon{
+                // font-size: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                background-color: #e9e9e9;
+                margin-top: 50px;
+            }
+            .video-count {
+                align-self: flex-end;
+                margin-top: auto;
+                margin-bottom: 10px;
+                font-size: 20px;
+                color: black;
+            }
+        }
+
+        h4 {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    }
+
+    .playlist-section {
+        margin-left: 20px;
+        padding: 10px;
+        border-left: 2px solid #ccc;
+    }
+}
